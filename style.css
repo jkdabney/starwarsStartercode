@@ -14,31 +14,33 @@ img {
 
 
 /* phone */
+  
 body {
   background-color: #000000;
 }
 
-
-
 h1 {
   font-family: "SF Distant Galaxy";
   display: flex;
-  justify-content: center
+  justify-content: center;
+  color: yellow
 }
 
 nav {
   display: flex;
   justify-content: space-around;
-  color: #fbff00;
+  color: yellow
 }
 
-
-
 /* computer */
-@media screen and (min-width: 600px) {
 
 
+.chicago {
+  color: white
+}
 
+.illinois a {
+  color: yellow
 }
 
 .flexin {
