@@ -14,7 +14,11 @@ img {
 
 
 /* phone */
-  
+.center {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}  
 body {
   background-color: #000000;
 }
@@ -33,6 +37,8 @@ nav {
 }
 
 /* computer */
+@media screen and (min-width: 600px)
+{
 
 
 .chicago {
@@ -71,4 +77,11 @@ nav {
 .grogu3 {
   display: flex;
   justify-content: center
+}
+
+.center {
+  flex-direction: row;
+
+}
+
 }
